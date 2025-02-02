@@ -1,0 +1,24 @@
+[project]
+name = "prathamkabra-github-io"
+version = "0.0.1"
+description = "Initial Website for Pratham Kabra Github"
+authors = [
+    {name = "Pratham Kabra",email = "kabrapratham@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "plotly (>=6.0.0,<7.0.0)",
+    "numpy (>=2.2.2,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+[tool.poetry]
+packages = [{include = "prathamkabra"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
